@@ -10,8 +10,8 @@ int main() {
 			
 			if (a[i][j] > max) {
 				max = a[i][j];
-				max_x = a[i];
-				max_y = a[j];
+				max_x = i;
+				max_y = j;
 			}
 		}
 	}
